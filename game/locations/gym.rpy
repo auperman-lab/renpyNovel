@@ -10,8 +10,6 @@ define ah2 = 0
 define ah3 = 0
 define ah4 = 0
 
-play music "Gym.mp3"
-
 label Gym:
     show bg gym
     "You train good"
@@ -149,6 +147,8 @@ return
 
 label inAHealphyBody:
 
+    play music "Gym.mp3"
+
     "You enter the gym, focused on your workout regimen. As you lift weights and run on the treadmill, you notice Sania across the room, also deep in his own training."
     c "\"noticing Sania\" Hmm, that guy seems pretty serious about his workout."
     "Sania catches [c]'s glance but quickly averts his gaze, showing no interest in conversation."
@@ -175,6 +175,8 @@ label inAHealphyBody:
     s "Not bad, not bad at all. Come visit me sometime , I live in 810A .I could teach you some tricks."
     c "\"surprised but pleased\" Sure thing, Sania. Thanks for the invite."
     "As you both head towards the dorms, you can't help but wonder what other surprises await you in this new friendship."
+
+    stop music fadeout 1.0
 
 return
 

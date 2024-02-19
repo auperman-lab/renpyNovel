@@ -2,8 +2,6 @@ define nic = Character("Nichita")
 define f = Character("Fifa")
 define coj = Character("Cojuhari")
 
-play music "Massage.mp3"
-
 label massageRoom:
     show bg massageroom
 
@@ -22,6 +20,8 @@ label massageRoom:
     return
 
 label bigGuy:
+
+    play music "Massage.mp3"
     "As you work in the massage room, a student named Nichita enters. Despite his large frame, you sense strength beneath the layers of fat."
     "He lays on the massage table, silent and seemingly lost in thought."
     c "Would you like me to use professional gloves or just my hands?"
@@ -50,12 +50,14 @@ label bigGuy:
     c "You might be onto something there, Nichita. I've been focusing so much on the physical aspect of massage, but maybe I need to understand my clients better too."
     "You appreciate the importance of connecting with others, realizing that it's not just about the physical techniques, but also about understanding the needs and preferences of your clients."
 
-
+    stop music fadeout 1.0
 
 return
 
 
 label complicatedMadam:
+
+    play music "Massage.mp3"
 
     f "Ugh, girl, you won't believe what happened at the party last night! It was insane!"
 
@@ -176,9 +178,14 @@ label complicatedMadam:
     label out:
         "You get out he work place"
 
+
+    stop music fadeout 1.0
+
 return
 
 label unsatisfiedTeacher1:
+
+    play music "Massage.mp3"
 
     "At a random day near Midterm1 at the Massage Room, [coj] arrives. She behaves elegantly, putting all her clothes in a locker, as if it's not her first time doing so, and proceeds to the massage desk."
 
@@ -215,6 +222,8 @@ label unsatisfiedTeacher1:
     "You murmur quietly to yourself, grateful for the anonymity that allowed you to provide a professional massage without the pressure of being recognized as one of her students."
 
     "With a sense of relief washing over you, you gather your thoughts and begin tidying up the massage room, reflecting on the unexpected encounter with the rector."
+    
+    stop music fadeout 1.0
 
 return
 
