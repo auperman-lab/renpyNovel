@@ -104,7 +104,7 @@ label complicatedMadam:
         "..."
         "..."
         f "Um, can you please wear gloves? My skin is really sensitive."
-        "You comply with [Fifa]'s request and put on the gloves, adjusting your approach to accommodate her sensitivity."
+        "You comply with [f]'s request and put on the gloves, adjusting your approach to accommodate her sensitivity."
 
 
     menu:
@@ -169,7 +169,7 @@ label complicatedMadam:
 
         c "It's alright, Fifa. Everything's going to be okay. I'm here for you."
 
-        "Your calm demeanor and kind words help to soothe [Fifa]'s emotions, and she gradually relaxes in your arms, grateful for your understanding."
+        "Your calm demeanor and kind words help to soothe [f]'s emotions, and she gradually relaxes in your arms, grateful for your understanding."
         jump out
 
 

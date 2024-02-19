@@ -33,147 +33,146 @@ label library:
 
 
 label exam:
-    if totalday == 11:
-        show bg courseroom
-        "Exam Day!"
-        define correctAnswer = 0
+    show bg courseroom
+    "Exam Day!"
+    define correctAnswer = 0
 
-        menu:
-            "Problem 1"
-            "State the initial value problem, with initial condition imposed at t0 = 0, having implicit solution y*e^y +t^2 = sin t"
-            "y = 0":
+    menu:
+        "Problem 1"
+        "State the initial value problem, with initial condition imposed at t0 = 0, having implicit solution y*e^y +t^2 = sin t"
+        "y = 0":
+            jump problem2
+        "y = t":
+            jump problem2
+        "y = e^t+t":
+            jump problem2
+        "y = 1":
+            jump problem2
+        "y = t^x + e":
+            jump problem2
+        "Friend help":
+            if sociability == 10:
+                $ correctAnswer +=1
+                "Oh i know this problem ,I did it with [max] when preparing for exam"
                 jump problem2
-            "y = t":
+            else:
+                "Sad i dont have someone to study with(("
                 jump problem2
-            "y = e^t+t":
-                jump problem2
-            "y = 1":
-                jump problem2
-            "y = t^x + e":
-                jump problem2
-            "Friend help":
-                if sociability == 10:
-                    $ correctAnswer +=1
-                    "Oh i know this problem ,I did it with [max] when preparing for exam"
-                    jump problem2
-                else:
-                    "Sad i dont have someone to study with(("
-                    jump problem2
 
 
-        label problem2:
-        menu:
-            "Problem 2"
-            "Solve the diferential equation: y' = x*e^(-sin(x)) - y*cos(x)"
-            "y = 0":
+    label problem2:
+    menu:
+        "Problem 2"
+        "Solve the diferential equation: y' = x*e^(-sin(x)) - y*cos(x)"
+        "y = 0":
+            jump problem3
+        "y = e^(x+sin(x))":
+            jump problem3
+        "y = sin(x)":
+            jump problem3
+        "y = cos(x)":
+            jump problem3
+        "I dont know":
+            jump problem3
+        "Friend help":
+            if sociability == 10:
+                $ correctAnswer +=1
+                "Oh i know this problem ,I did it with [max] when preparing for exam"
                 jump problem3
-            "y = e^(x+sin(x))":
+            else:
+                "Sad i dont have someone to study with(("
                 jump problem3
-            "y = sin(x)":
-                jump problem3
-            "y = cos(x)":
-                jump problem3
-            "I dont know":
-                jump problem3
-            "Friend help":
-                if sociability == 10:
-                    $ correctAnswer +=1
-                    "Oh i know this problem ,I did it with [max] when preparing for exam"
-                    jump problem3
-                else:
-                    "Sad i dont have someone to study with(("
-                    jump problem3
 
-        label problem3:
-        menu:
-            "Problem 3"
-            "Find Symetric equations for the line of inntersection of the planes 5x-2y-2z = 1"
-            "y+x+z = 0":
+    label problem3:
+    menu:
+        "Problem 3"
+        "Find Symetric equations for the line of inntersection of the planes 5x-2y-2z = 1"
+        "y+x+z = 0":
+            jump problem4
+        "y^2+x = 3":
+            jump problem4
+        "z+x+x^2 = pi":
+            jump problem4
+        "I dont know":
+            jump problem4
+        "I dont know":
+            jump problem4
+        "Friend help":
+            if sociability == 10:
+                $ correctAnswer +=1
+                "Oh i know this problem ,I did it with [max] when preparing for exam"
                 jump problem4
-            "y^2+x = 3":
+            else:
+                "Sad i dont have someone to study with(("
                 jump problem4
-            "z+x+x^2 = pi":
-                jump problem4
-            "I dont know":
-                jump problem4
-            "I dont know":
-                jump problem4
-            "Friend help":
-                if sociability == 10:
-                    $ correctAnswer +=1
-                    "Oh i know this problem ,I did it with [max] when preparing for exam"
-                    jump problem4
-                else:
-                    "Sad i dont have someone to study with(("
-                    jump problem4
 
-        label problem4:
-        menu:
-            "Problem 4"
-            "Determine whether the planes are parallel , perpendicular, or neither. If neither find the angle between them"
-            "I dont know":
+    label problem4:
+    menu:
+        "Problem 4"
+        "Determine whether the planes are parallel , perpendicular, or neither. If neither find the angle between them"
+        "I dont know":
+            jump problem5
+        "perpendicular":
+            jump problem5
+        "neither(34 degrees)":
+            jump problem5
+        "I dont know":
+            jump problem5
+        "I dont know":
+            jump problem5
+        "Friend help":
+            if sociability == 10:
+                $ correctAnswer +=1
+                danu "I will help u here"
                 jump problem5
-            "perpendicular":
+            else:
+                "Sad that i dont have friends"
                 jump problem5
-            "neither(34 degrees)":
-                jump problem5
-            "I dont know":
-                jump problem5
-            "I dont know":
-                jump problem5
-            "Friend help":
-                if sociability == 10:
-                    $ correctAnswer +=1
-                    danu "I will help u here"
-                    jump problem5
-                else:
-                    "Sad that i dont have friends"
-                    jump problem5
 
 
-        label problem5:
-        menu:
-            "Problem 5"
-            "Evaluate the line integral F over C (xyz^2)dS, where C is line segment from (-1,5,0) to (1,6,4)"
-            "I dont know":
+    label problem5:
+    menu:
+        "Problem 5"
+        "Evaluate the line integral F over C (xyz^2)dS, where C is line segment from (-1,5,0) to (1,6,4)"
+        "I dont know":
+            jump result
+        "I dont know":
+            jump result
+        "I dont know":
+            jump result
+        "I dont know":
+            jump result
+        "I gues i know":
+            jump result
+        "Friend help":
+            if sociability == 10:
+                $ correctAnswer +=1
+                danu "I will help u here"
                 jump result
-            "I dont know":
+            else:
+                "Sad that i dont have friends"
                 jump result
-            "I dont know":
-                jump result
-            "I dont know":
-                jump result
-            "I gues i know":
-                jump result
-            "Friend help":
-                if sociability == 10:
-                    $ correctAnswer +=1
-                    danu "I will help u here"
-                    jump result
-                else:
-                    "Sad that i dont have friends"
-                    jump result
 
-        label result:
-            if correctAnswer == 5:
-                hide courseroom
-                call ending1
+    label result:
+        if correctAnswer == 5:
+            hide courseroom
+            call ending1
 
-            if ah5 == 1:
-                hide courseroom
-                call ending2
+        if ah5 == 1:
+            hide courseroom
+            call ending2
 
-            if charisma >=9:
-                hide courseroom
-                call ending3
+        if charisma >=9:
+            hide courseroom
+            call ending3
 
-            if intelligence>=9:
-                hide courseroom
-                call ending4
+        if intelligence>=9:
+            hide courseroom
+            call ending4
 
-            if correctAnswer != 5 and ah5 == 0 and charisma < 9 and intelligence <9:
-                hide courseroom
-                call ending5
+        if correctAnswer != 5 and ah5 == 0 and charisma < 9 and intelligence <9:
+            hide courseroom
+            call ending5
 
 return
 

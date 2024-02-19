@@ -1,32 +1,55 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 76, in script call
-    call park
-  File "game/locations/gym.rpy", line 55, in script call
-    call ambiguousHelp4
-  File "game/locations/gym.rpy", line 143, in script
-    "As I sit down at Alcas 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, Alcas seems more somber, as if carrying a weight on his shoulders."\
-Exception: Sayer '"As I sit down at Alcas 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, Alcas seems more somber, as if carrying a weight on his shoulders."\' is not defined.
+  File "game/script.rpy", line 60, in script call
+    call massageRoom
+  File "game/locations/massageRoom.rpy", line 17, in script call
+    call complicatedMadam
+  File "game/locations/massageRoom.rpy", line 142, in script call
+    call afterCalmResponse3
+  File "game/locations/massageRoom.rpy", line 172, in script
+    "Your calm demeanor and kind words help to soothe [Fifa]'s emotions, and she gradually relaxes in your arms, grateful for your understanding."
+NameError: Name 'Fifa' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 76, in script call
-    call park
-  File "game/locations/gym.rpy", line 55, in script call
-    call ambiguousHelp4
-  File "game/locations/gym.rpy", line 143, in script
-    "As I sit down at Alcas 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, Alcas seems more somber, as if carrying a weight on his shoulders."\
+  File "game/script.rpy", line 60, in script call
+    call massageRoom
+  File "game/locations/massageRoom.rpy", line 17, in script call
+    call complicatedMadam
+  File "game/locations/massageRoom.rpy", line 142, in script call
+    call afterCalmResponse3
+  File "game/locations/massageRoom.rpy", line 172, in script
+    "Your calm demeanor and kind words help to soothe [Fifa]'s emotions, and she gradually relaxes in your arms, grateful for your understanding."
   File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2557, in execute
     Say.execute(self)
-  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer '"As I sit down at Alcas 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, Alcas seems more somber, as if carrying a weight on his shoulders."\' is not defined.
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1376, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1290, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1270, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/substitutions.py", line 368, in substitute
+    s = interpolate(s, kwargs) # type: ignore
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/substitutions.py", line 86, in interpolate
+    raise e
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/substitutions.py", line 310, in __getitem__
+    raise NameError("Name '{}' is not defined.".format(key))
+NameError: Name 'Fifa' is not defined.
 
 macOS-10.16-x86_64-i386-64bit x86_64
 Ren'Py 8.2.0.24012702
 Novell 1.0
-Mon Feb 19 11:12:01 2024
+Mon Feb 19 11:30:14 2024

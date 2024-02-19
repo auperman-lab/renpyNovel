@@ -79,6 +79,7 @@ label start:
         "You pass out"
         hide bg bedroomnight
 
+
     call exam
 
 return
