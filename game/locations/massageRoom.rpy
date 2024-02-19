@@ -13,6 +13,13 @@ label massageRoom:
     if charisma == 3 :
         call bigGuy
 
+    if charisma == 6 :
+        call complicatedMadam
+
+    if charisma == 9 :
+            call unsatisfiedTeacher1
+
+
     "you go home"
     hide bg massageroom
 

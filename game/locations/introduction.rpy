@@ -40,6 +40,7 @@ label introduction:
     b " Seize the freedom that university affords you, pursue your passions with zeal, and above all, never stop learning. Welcome to TAEM, where the pursuit of knowledge knows no bounds."
 
     hide bg courseroom
+    stop music
 
     "After the Welcome Ceremony ends , students are redirected to their specific classroom"
 

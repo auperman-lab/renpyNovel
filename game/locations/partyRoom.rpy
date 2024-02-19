@@ -12,10 +12,10 @@ label partyRoom:
     $ energy = 2
     $ sociability += 1
 
-    if sociability == 3 :
+    if sociability == 4 :
         call pokerEvent
 
-    if sociability == 6 :
+    if sociability == 7 :
         call kitchenIncident
 
     label common:
