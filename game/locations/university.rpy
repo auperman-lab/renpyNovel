@@ -3,9 +3,10 @@ label seminarRoom:
 
         show bg semiarroom:
             matrixcolor TintMatrix("#ebae3480")*ContrastMatrix(1.48)*BrightnessMatrix(0.1)
-
+        show cojuhari
         "You are listening to math classes"
         hide bg semiarroom
+        hide cojuhari
         show bg hallway
 
         "leisure time"
@@ -13,8 +14,10 @@ label seminarRoom:
         hide bg hallway
 
         show bg semiarroom
+        show cojuhari
         "You are listening to even more math classes"
         "You feel smarter"
+        hide cojuhari
         hide bg semiarroom
 
         $ intelligence += 1
@@ -36,6 +39,7 @@ label exam:
     show bg courseroom
     "Exam Day!"
     define correctAnswer = 0
+    show cojuhari
 
     menu:
         "Problem 1"
@@ -154,6 +158,7 @@ label exam:
                 jump result
 
     label result:
+        hide cojuhari
         if correctAnswer == 5:
             hide courseroom
             call ending1
@@ -188,6 +193,7 @@ return
 
 label ending3:
     "Good job You got Third Ending"
+    show cojuhari
     "Such hannds, goldenn hands , even others see that , feel that "
 return
 

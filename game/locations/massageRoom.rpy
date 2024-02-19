@@ -4,7 +4,8 @@ define coj = Character("Cojuhari")
 
 label massageRoom:
     show bg massageroom
-
+    play music "Massage.mp3"
+    show shinji
     "You massage some people and gain some cash"
     $ energy -= 1
     $ charisma +=1
@@ -23,6 +24,7 @@ label massageRoom:
     "you go home"
     hide bg massageroom
 
+    stop music
 
     return
 
@@ -64,12 +66,10 @@ return
 
 label complicatedMadam:
 
-    play music "Massage.mp3"
-
+    show shinji
     f "Ugh, girl, you won't believe what happened at the party last night! It was insane!"
-
+    show fifa
     "Fifa puts her things away, leaving her phone on the table, and gets on the Massage Table, still chatting away."
-
     "You start massaging, trying to concentrate, but Fifa continues to talk and move around."
 
     f "Oh my gosh, I know, right? It was like, the craziest thing ever!"
@@ -180,22 +180,21 @@ label complicatedMadam:
         jump madamOut
 
     label madamOut:
+        hide fifa
         "[f] is leaving the saloon , u understand that u will have even less money"
 
     label out:
         "You get out he work place"
 
 
-    stop music fadeout 1.0
 
 return
 
 label unsatisfiedTeacher1:
-
-    play music "Massage.mp3"
+    show shinji
 
     "At a random day near Midterm1 at the Massage Room, [coj] arrives. She behaves elegantly, putting all her clothes in a locker, as if it's not her first time doing so, and proceeds to the massage desk."
-
+    show cojuhari
     coj "Good afternoon. I'm here for my massage appointment."
 
     "She strides confidently towards the massage desk, not seeming to recognize you."
@@ -229,8 +228,7 @@ label unsatisfiedTeacher1:
     "You murmur quietly to yourself, grateful for the anonymity that allowed you to provide a professional massage without the pressure of being recognized as one of her students."
 
     "With a sense of relief washing over you, you gather your thoughts and begin tidying up the massage room, reflecting on the unexpected encounter with the rector."
-
-    stop music fadeout 1.0
+    hide cojuhari
 
 return
 

@@ -1,4 +1,13 @@
-﻿define c = Character('Covalenco', color="#ff0303")
+﻿image shinji = "chars/shinji.png"
+image alcas = "chars/alcas.png"
+image cojuhari = "chars/cojuhari.png"
+image danu = "chars/danu.png"
+image fifa = "chars/fifa.png"
+image fool = "chars/fool.png"
+image manager = "chars/manager.png"
+image max = "chars/maxx.png"
+image sarov = "chars/sarov.png"
+define c = Character('Covalenco', color="#ff0303", image="images/danu.png")
 
 
 define energy = 0

@@ -894,3 +894,2091 @@ Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
+Resetting cache.
+Early init took 2157.91s
+Loading error handling took 0.28s
+Loading script took 0.50s
+Loading save slot metadata took 0.12s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.23s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.21s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.16s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2241.64s
+Loading error handling took 0.04s
+Loading script took 0.44s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+
+File "game/locations/massageRoom.rpy", line 7: play requires a file
+    play music
+              ^
+DPI scale factor: 1.000000
+Interface start took 0.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2347.55s
+Loading error handling took 0.03s
+Loading script took 0.36s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/locations/massageRoom.rpy", line 7: play requires a file
+    play music
+              ^
+DPI scale factor: 1.000000
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2678.24s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/locations/massageRoom.rpy", line 7: play requires a file
+    play music 
+               ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2688.98s
+Loading error handling took 0.03s
+Loading script took 0.19s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2754.21s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2807.48s
+Loading error handling took 0.04s
+Loading script took 0.30s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.01s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2853.03s
+Loading error handling took 0.05s
+Loading script took 0.14s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2885.03s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2939.58s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3004.74s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3077.49s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3130.76s
+Loading error handling took 0.04s
+Loading script took 0.25s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3138.67s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3143.57s
+Loading error handling took 0.03s
+Loading script took 0.16s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3154.58s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.19s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3364.81s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/locations/massageRoom.rpy", line 2, in script
+    define f = Character("Fifa", image)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/locations/massageRoom.rpy", line 2, in <module>
+    define f = Character("Fifa", image)
+NameError: name 'image' is not defined
+
+While running game code:
+  File "game/locations/massageRoom.rpy", line 2, in script
+    define f = Character("Fifa", image)
+  File "game/locations/massageRoom.rpy", line 2, in <module>
+    define f = Character("Fifa", image)
+NameError: name 'image' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3372.56s
+Loading error handling took 0.04s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3407.93s
+Loading error handling took 0.17s
+Loading script took 0.31s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3415.82s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3459.20s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+
+While running game code:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3587.12s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+
+While running game code:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3640.07s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+
+While running game code:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3641.01s
+Loading error handling took 0.03s
+Loading script took 0.11s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+
+While running game code:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3643.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+
+While running game code:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3643.80s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+
+While running game code:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3654.52s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 2: expected '=' not found.
+    define image shinji = "images/shinji.png"
+                 ^
+DPI scale factor: 1.000000
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3655.42s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 2: expected '=' not found.
+    define image shinji = "images/shinji.png"
+                 ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3666.19s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+
+While running game code:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3835.13s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2219, in execute
+    self.set()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2233, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+
+While running game code:
+  File "game/script.rpy", line 3, in script
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+  File "game/script.rpy", line 3, in <module>
+    define c = Character('Covalenco', color="#ff0303", image=shinji)
+NameError: name 'shinji' is not defined
+DPI scale factor: 1.000000
+Interface start took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3845.86s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3864.68s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3924.65s
+Loading error handling took 0.04s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4050.24s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1338, 1131) drawable=(1338, 1131)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 4175.06s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 2: expected 'image_name_component' not found.
+    image  = "shinji.png"
+           ^
+DPI scale factor: 1.000000
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4187.26s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 52, in script call
+    call introduction
+  File "game/locations/introduction.rpy", line 71, in script
+    "Despite her genuine demeanor, the crowd seems unmoved, their attention still drawn to Andrei's charismatic display."
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2557, in execute
+    Say.execute(self)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1391, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1042, in do_display
+    display_say(who,
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 738, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2814, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 1352, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/transform.py", line 957, in render
+    return RenderTransform(self).render(width, height, st, at)
+  File "accelerator.pyx", line 978, in renpy.display.accelerator.RenderTransform.render
+  File "accelerator.pyx", line 413, in renpy.display.accelerator.RenderTransform.render_child
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/image.py", line 513, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/image.py", line 316, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 626, in render
+    return cache.get(self, render=True)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 309, in get
+    surf = image.load()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 761, in load
+    raise e
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 711, in load
+    filelike = renpy.loader.load(self.filename, directory="images")
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'shinji.png'.
+
+While loading <renpy.display.im.Image object ('shinji.png') at 0x1075cdaf0>:
+  File "game/script.rpy", line 52, in script call
+    call introduction
+  File "game/locations/introduction.rpy", line 71, in script
+    "Despite her genuine demeanor, the crowd seems unmoved, their attention still drawn to Andrei's charismatic display."
+OSError: Couldn't find file 'shinji.png'.
+Resetting cache.
+Early init took 4196.76s
+Loading error handling took 0.04s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 52, in script call
+    call introduction
+  File "game/locations/introduction.rpy", line 71, in script
+    "Despite her genuine demeanor, the crowd seems unmoved, their attention still drawn to Andrei's charismatic display."
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2557, in execute
+    Say.execute(self)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1391, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1042, in do_display
+    display_say(who,
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 738, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2814, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 1352, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/transform.py", line 957, in render
+    return RenderTransform(self).render(width, height, st, at)
+  File "accelerator.pyx", line 978, in renpy.display.accelerator.RenderTransform.render
+  File "accelerator.pyx", line 413, in renpy.display.accelerator.RenderTransform.render_child
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/image.py", line 513, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/image.py", line 316, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 626, in render
+    return cache.get(self, render=True)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 309, in get
+    surf = image.load()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 761, in load
+    raise e
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 711, in load
+    filelike = renpy.loader.load(self.filename, directory="images")
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'shinji.png'.
+
+While loading <renpy.display.im.Image object ('shinji.png') at 0x11f7874f0>:
+  File "game/script.rpy", line 52, in script call
+    call introduction
+  File "game/locations/introduction.rpy", line 71, in script
+    "Despite her genuine demeanor, the crowd seems unmoved, their attention still drawn to Andrei's charismatic display."
+OSError: Couldn't find file 'shinji.png'.
+Resetting cache.
+Early init took 4206.14s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 52, in script call
+    call introduction
+  File "game/locations/introduction.rpy", line 71, in script
+    "Despite her genuine demeanor, the crowd seems unmoved, their attention still drawn to Andrei's charismatic display."
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2557, in execute
+    Say.execute(self)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1391, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 1042, in do_display
+    display_say(who,
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/character.py", line 738, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2814, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 1352, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/transform.py", line 957, in render
+    return RenderTransform(self).render(width, height, st, at)
+  File "accelerator.pyx", line 978, in renpy.display.accelerator.RenderTransform.render
+  File "accelerator.pyx", line 413, in renpy.display.accelerator.RenderTransform.render_child
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/image.py", line 513, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/image.py", line 316, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 626, in render
+    return cache.get(self, render=True)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 309, in get
+    surf = image.load()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 761, in load
+    raise e
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/im.py", line 711, in load
+    filelike = renpy.loader.load(self.filename, directory="images")
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'shinji.png'.
+
+While loading <renpy.display.im.Image object ('shinji.png') at 0x111cdfbb0>:
+  File "game/script.rpy", line 52, in script call
+    call introduction
+  File "game/locations/introduction.rpy", line 71, in script
+    "Despite her genuine demeanor, the crowd seems unmoved, their attention still drawn to Andrei's charismatic display."
+OSError: Couldn't find file 'shinji.png'.
+Resetting cache.
+Early init took 4216.99s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4234.35s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.13s
+Save screen analysis took 0.04s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4331.31s
+Loading error handling took 0.03s
+Loading script took 0.19s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4669.85s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(1338, 753)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1338, 1131) drawable=(1338, 1131)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1338, 617) drawable=(1338, 617)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5039.35s
+Loading error handling took 0.03s
+Loading script took 0.34s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1097, 617) drawable=(1097, 617)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5147.37s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1097, 617) drawable=(1097, 617)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5353.13s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/locations/partyRoom.rpy", line 177: expected statement.
+    fool center
+               ^
+
+File "game/locations/partyRoom.rpy", line 178: expected statement.
+    shinji left
+               ^
+
+File "game/locations/partyRoom.rpy", line 198: expected statement.
+    shinji center
+                 ^
+
+File "game/locations/partyRoom.rpy", line 199: expected statement.
+    fool left
+             ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1097, 617) drawable=(1097, 617)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5434.72s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/locations/partyRoom.rpy", line 177: expected statement.
+    fool at center
+         ^
+
+File "game/locations/partyRoom.rpy", line 178: expected statement.
+    shinji at left
+           ^
+
+File "game/locations/partyRoom.rpy", line 198: expected statement.
+    shinji at center
+           ^
+
+File "game/locations/partyRoom.rpy", line 199: expected statement.
+    fool at left
+         ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1097, 617) drawable=(1097, 617)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5549.53s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/locations/partyRoom.rpy", line 177: expected statement.
+    fool at center
+         ^
+
+File "game/locations/partyRoom.rpy", line 178: expected statement.
+    shinji at left
+           ^
+
+File "game/locations/partyRoom.rpy", line 198: expected statement.
+    shinji at center
+           ^
+
+File "game/locations/partyRoom.rpy", line 199: expected statement.
+    fool at left
+         ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1097, 617) drawable=(1097, 617)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5579.83s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/locations/partyRoom.rpy", line 198: expected statement.
+    shinji at center
+           ^
+
+File "game/locations/partyRoom.rpy", line 199: expected statement.
+    fool at left
+         ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1097, 617) drawable=(1097, 617)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5592.06s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1097, 617) drawable=(1097, 617)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 5728.66s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/nmacrii/Library/RenPy/backups/renpyNovel':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 650'
+Version: b'2.1 INTEL-20.6.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1097, 617) drawable=(1097, 617)
+Maximum texture size: 4096x4096

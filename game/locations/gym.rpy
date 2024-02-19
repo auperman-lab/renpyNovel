@@ -33,8 +33,9 @@ label Gym:
     $ strength +=1
     "You feel stronger"
 
-    hide bg gym
     "you go home"
+
+    hide bg gym
     stop music
     return
 
@@ -65,6 +66,8 @@ label park:
 
 
 label ambiguousHelp1:
+    play music "Fight1.mp3"
+    show shinji
     "You're on your usual run through the park, enjoying the peaceful atmosphere and the feeling of freedom that comes with each stride."
     "However, today is different. As you round a corner, you hear raised voices and the sound of a scuffle ahead."
     "Your instincts kick in, and you quicken your pace, curiosity mingling with concern as you approach the source of the commotion."
@@ -85,6 +88,7 @@ label ambiguousHelp1:
         "Without hesitation, you step forward, ready to confront the thug and defend the old man."
         "After a fierce struggle, you emerge victorious, the thug defeated and slinking away in defeat."
         "As the dust settles, the old man approaches you, gratitude shining in his eyes."
+        show alcas
         alcas "Thank you, young one. You saved me from a dire situation."
         "He offers you a drink from a nearby flask, a gesture of appreciation."
         alcas "Please, take a sip. It's the least I can do to repay you."
@@ -97,15 +101,20 @@ label ambiguousHelp1:
         "As the sun sets in the distance, you realize that sometimes, the most unexpected encounters can lead to the most meaningful connections."
         $ ah1 = 1
     label parkOut:
+        stop music
+        hide alcas
         "U calmly go to you room"
 
 return
 
 label ambiguousHelp2:
+    play music "Fight1.mp3"
+    show shinji
 
     "Once again, you find yourself coming to the aid of [alcas], who is in trouble yet again."
     "You face off against his assailant, determined to protect him from harm."
     "With your skill and strength, you defeat the attacker once more, ensuring [alcas]'s safety."
+    show alcas
     alcas " \"slurring slightly\" Well, ain't you a sight for sore eyes, kid? Saved my hide again, you did."
     "He gestures towards his home, a small but welcoming abode nearby, his movements unsteady."
     alcas "Come on, let's go. I got some grub at my place. Might not be much, but it'll fill yer belly."
@@ -118,12 +127,15 @@ label ambiguousHelp2:
     "After this pleasant and delicious food , u decide that u need to go already"
     hide bg alcashomes
     $ ah2 = 2
+    stop music
+    hide alcas
 
 
 return
 
 label ambiguousHelp3:
-
+    show shinji
+    show alcas
     "Once again, you find yourself coming to the aid of Alcas, who seems to attract trouble wherever he goes."
     "You step in to defend him, your determination unwavering despite the familiarity of the situation."
     "With your skill and strength, you defeat the attacker once more, ensuring Alcas's safety."
@@ -136,10 +148,13 @@ label ambiguousHelp3:
     "Despite your misgivings, you accept the money, realizing that it comes from a place of genuine gratitude and desperation."
     "As you part ways with Alcas, you can't help but feel a mix of emotions, grateful for his thanks but troubled by the circumstances that led to his generosity."
     $ ah3 = 1
+    hide alcas
 
 return
 
 label ambiguousHelp4:
+    show shinji
+    show alcas
     "As I sit down at [alcas] 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, [alcas] seems more somber, as if carrying a weight on his shoulders."
     c "Hey, [alcas], everything alright?"
     alcas " \"sights\"Yeah, just been thinking about some things lately."
@@ -164,22 +179,30 @@ label ambiguousHelp4:
     c  "\"hesitant\"Well, [alcas], it's... it's complicated. You know, university stuff. I have exams coming up, and there's this one professor, [coj]. She's tough, really tough. I'm worried she won't let me pass."
     alcas  "\" smiling reassuringly\"Don't worry, my friend. Everything will be alright. Meet me at the park next evening, and we'll figure things out together."
     $ ah4 = 1
+    hide alcas
 
 
 return
 
 label ambiguousHelp5:
+    show shinji
+    play music "Fight2.mp3"
     "You come at the given date , u as always see someone fighting"
+    show cojuhari
     "when u come near u see your professor [coj] being harassed"
     "As lightning u hit that man"
+    show alcas
     "U observe that the man is [alcas]"
     "He gives you a look , and runs away"
+    hide alcas
+    stop music
     coj "Thank you young man , i will never forgive this. Humanity has future"
     c "Its all ok , i dont think someone could walk through park when someone is raped"
     c "anyway , i need to  go "
     c "Have a great night. And try not to walk alone at night"
     coj "Thank you , thanks"
     $ ah5 = 1
+    hide cojuhari
 
 
 
@@ -188,7 +211,7 @@ return
 label inAHealphyBody:
 
     play music "Gym.mp3"
-
+    show shinji
     "You enter the gym, focused on your workout regimen. As you lift weights and run on the treadmill, you notice Sania across the room, also deep in his own training."
     c "\"noticing Sania\" Hmm, that guy seems pretty serious about his workout."
     "Sania catches [c]'s glance but quickly averts his gaze, showing no interest in conversation."
@@ -227,7 +250,7 @@ return
 label saniaRoom:
     "You knock on Sania's door, hoping to continue your conversation from the gym and perhaps learn more about armwrestling."
     show bg ezoa
-
+    show shinji
     c "Hey, Sania, it's me again. Mind if I come in?"
     s "\"opens the door looking surprised but welcoming\" Oh, hey. Sure, come on in."
     "You enter Sania's room, noticing the various armwrestling trophies and posters adorning the walls."
