@@ -46,7 +46,7 @@ label start:
 
     call introduction
 
-    while totalday < 10:
+    while totalday <= 10:
         show screen DayDisplay
 
 
@@ -79,9 +79,7 @@ label start:
         "You pass out"
         hide bg bedroomnight
 
-
-
-
+    call exam
 
 return
 

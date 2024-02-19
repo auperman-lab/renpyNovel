@@ -2,17 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/locations/gym.rpy", line 48: if statement expects a non-empty block.
-    if strength == 8 and ah2:
-                             ^
+File "game/locations/university.rpy", line 156: if statement expects a non-empty block.
+    if correctAnswer == 5:
+                          ^
 
-File "game/locations/gym.rpy", line 51: if statement expects a non-empty block.
-    if strength == 9 and ah3:
-                             ^
+File "game/locations/university.rpy", line 158: Line is indented, but the preceding hide statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    call ending1
+    ^
 
-File "game/locations/gym.rpy", line 54: if statement expects a non-empty block.
-    if strength == 10 and ah4:
-                              ^
+File "game/locations/university.rpy", line 174: expected 'label_name' not found.
+    call
+        ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Feb 19 09:43:37 2024
+Mon Feb 19 10:58:21 2024

@@ -9,6 +9,7 @@ define ah1 = 0
 define ah2 = 0
 define ah3 = 0
 define ah4 = 0
+define ah5 = 0
 
 
 
@@ -48,13 +49,13 @@ label park:
         call ambiguousHelp2
 
     if strength == 8 and ah2:
-    call ambiguousHelp2
+        call ambiguousHelp3
 
     if strength == 9 and ah3:
-    call ambiguousHelp3
+        call ambiguousHelp4
 
-    if strength == 10 and ah4:
-    call ambiguousHelp4
+    if ah4:
+        call ambiguousHelp5
 
 
     "you go home"
@@ -94,7 +95,7 @@ label ambiguousHelp1:
         "He launches into a tirade, regaling you with tales of woe and lamenting the injustices he's faced over the years."
         "His words are filled with bitterness and frustration, and you find yourself listening out of politeness rather than genuine interest."
         "As the sun sets in the distance, you realize that sometimes, the most unexpected encounters can lead to the most meaningful connections."
-
+        $ ah1 = 1
     label parkOut:
         "U calmly go to you room"
 
@@ -116,6 +117,7 @@ label ambiguousHelp2:
     "As you eat, you can't help but feel a sense of camaraderie with [alcas], grateful for the chance to share in his hospitality and bond over a shared experience of overcoming adversity."
     "After this pleasant and delicious food , u decide that u need to go already"
     hide bg alcashomes
+    $ ah2 = 2
 
 
 return
@@ -133,6 +135,7 @@ label ambiguousHelp3:
     alcas " \"sadly\" Because you're the only one who's shown me any kindness in a long time. You're restoring a bit of hope in this broken world, kid."
     "Despite your misgivings, you accept the money, realizing that it comes from a place of genuine gratitude and desperation."
     "As you part ways with Alcas, you can't help but feel a mix of emotions, grateful for his thanks but troubled by the circumstances that led to his generosity."
+    $ ah3 = 1
 
 return
 
@@ -160,6 +163,24 @@ label ambiguousHelp4:
     alcas "So now tell me too about yourself, every time you help me , i dont like it."
     c  "\"hesitant\"Well, [alcas], it's... it's complicated. You know, university stuff. I have exams coming up, and there's this one professor, [coj]. She's tough, really tough. I'm worried she won't let me pass."
     alcas  "\" smiling reassuringly\"Don't worry, my friend. Everything will be alright. Meet me at the park next evening, and we'll figure things out together."
+    $ ah4 = 1
+
+
+return
+
+label ambiguousHelp5:
+    "You come at the given date , u as always see someone fighting"
+    "when u come near u see your professor [coj] being harassed"
+    "As lightning u hit that man"
+    "U observe that the man is [alcas]"
+    "He gives you a look , and runs away"
+    coj "Thank you young man , i will never forgive this. Humanity has future"
+    c "Its all ok , i dont think someone could walk through park when someone is raped"
+    c "anyway , i need to  go "
+    c "Have a great night. And try not to walk alone at night"
+    coj "Thank you , thanks"
+    $ ah5 = 1
+
 
 
 return
