@@ -222,7 +222,7 @@ label unsatisfiedTeacher1:
     "You murmur quietly to yourself, grateful for the anonymity that allowed you to provide a professional massage without the pressure of being recognized as one of her students."
 
     "With a sense of relief washing over you, you gather your thoughts and begin tidying up the massage room, reflecting on the unexpected encounter with the rector."
-    
+
     stop music fadeout 1.0
 
 return
