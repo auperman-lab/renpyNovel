@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/locations/partyRoom.rpy", line 61: expected statement.
-    fool: "Here you go, [danu], 5 percent for good luck. Thank the Karma, guys!"
-        ^
+File "game/locations/gym.rpy", line 37: if statement expects a non-empty block.
+    if strength == 8 and ah2:
+                             ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Feb 19 07:31:07 2024
+Mon Feb 19 09:28:37 2024

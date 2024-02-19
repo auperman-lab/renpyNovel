@@ -3,6 +3,8 @@
 
 define danu = Character("Danu Macrii")
 define fool = Character("Fool")
+define max = Character("Max Plamadeala")
+define chef = Character("Floor Chef")
 
 label partyRoom:
     show bg partyroom
@@ -17,13 +19,96 @@ label partyRoom:
         call kitchenIncident
 
     label common:
-        "you go home"
+        "You feel exhausted and go to your room"
         hide bg partyroom
 return
 
 label kitchenIncident:
 
-    $ maxEvent1 = 0
+    "You follow the group to the balcony, unable to ignore the chaos and noise of the party around you. Despite the laughter and loud music, a sense of unease creeps in."
+    show bg kitchen
+    "As you slip through the kitchen door, you're met with the jarring sound of raging metal music blasting from a nearby speaker. The sudden shift in atmosphere adds to the surreal nature of your escape, contrasting sharply with the cacophony of voices and laughter from the party."
+
+    "You spot [max] cooking alone, the sound of metal music filling the air around you. Intrigued, you approach him, but Max's initial reaction is less than welcoming."
+
+    max "Another drunk one, perfect. What do you want?"
+
+    "You respond with equal aggression, taken aback by [max]'s attitude."
+
+    c "Who the hell are you? You just walked in here and get this attitude? You're just cooking alone. Do you even understand the concept of dorm life? Here, everyone is supposed to be friends, networking skills are essential."
+
+    max "Haha, in the end, you'll be alone, like me, like everyone. And 'just cooking'? You really think that's easy? I bet even if I told you what to do, you'd fail."
+
+    "You don't back down, your determination evident."
+
+    c "Bet me."
+
+    "The challenge hangs in the air between you, tension crackling as you face off in the kitchen."
+
+    "The sound of 'Ratatui' music fills the kitchen as you and [max] embark on your synchronized cooking challenge. [max] takes the lead, barking out orders with a negative attitude, while you begrudgingly follow along."
+
+    max "Alright, fry up those eggs, and make sure they're not overcooked."
+
+    "You roll your eyes, but begrudgingly start cracking eggs into the frying pan."
+
+    c "Sure thing, boss."
+
+    max "And don't forget to fry up that meat, we need it cooked just right."
+
+    "You grumble under your breath as you add the meat to another pan, trying to keep up with [max]'s demands."
+
+    c "Yeah, yeah, I got it."
+
+    max "And while you're at it, get that mamaliga cooking. Don't mess it up."
+
+    "Your frustration grows as you add the ingredients for mamaliga to a pot on the stove."
+
+    c "I'm on it, just give me a minute."
+
+    "Despite your best efforts to keep up, your negative attitude begins to affect your cooking. As [max] continues to bark out orders, the kitchen grows increasingly chaotic. In the end, despite your synchronized efforts, the mamaliga burns, followed by the eggs and garlic, leaving both you and [max] frustrated and defeated."
+
+    "As the chaos in the kitchen reaches its peak, you suddenly hear the sound of screaming coming from the balcony. The door swings open, and the Floor Chef storms in, his face red with anger."
+
+    chef "Not a damn minute of peace! These students are shameless! Some are throwing a party in the middle of the week, others are burning food!"
+
+    "His gaze falls on [max], his tone accusing."
+
+    chef "[max], I thought you were a good guy. Now you're getting some stranger to cook with you? You know you could get thrown out of the dorms for this, even if you are a FAF student!"
+
+    "You shrink back, feeling the weight of the Floor Chef's words. You exchange a worried glance with [max], realizing the severity of the situation."
+
+    menu:
+        "Help [max]":
+            jump helpMax
+
+        "Don't help [max]":
+            jump dontHelpMax
+
+    label helpMax:
+        "You step forward, ready to take responsibility and defend [max]'s actions."
+
+        "Wait, Floor Chef, let me explain. [max] didn't ask me to cook with him, I just happened to come in and offer to help. It was a misunderstanding."
+
+        "The Floor Chef listens, his expression softening slightly at your explanation."
+
+        chef "Well, you're lucky you're a FAF student too and live in the dorms. Otherwise, the police would be here in five minutes. But I expect you to make up for this. You're on dorm duty tomorrow."
+
+        "With a stern nod, the Floor Chef exits the kitchen, leaving you and [max] to breathe a sigh of relief."
+
+        max "Thanks, man. I owe you one. Hey, before the exams, we should study together. What do you say?"
+
+        "You nod, grateful for the chance to make amends and strengthen your friendship with [max]."
+
+    label dontHelpMax:
+        "You hesitate, unsure of what to do. You watch silently as [max] tries to defend himself, but the Floor Chef's anger only intensifies."
+
+        chef "I don't want to hear your excuses, [max]. You're on thin ice. One more slip-up, and you're out of here."
+
+        "With a disappointed shake of his head, the Floor Chef storms out of the kitchen, leaving [max] to face the consequences alone."
+
+    label commonHelpMax:
+        hide bg kitchen
+        "You feel exhausted and go to your room"
 return
 
 label pokerEvent:

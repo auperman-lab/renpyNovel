@@ -1,3 +1,4 @@
+define a = Character("Andrei Sarov", color="#1803ff")
 label introduction:
 
     define girl = Character("The girl", color="#b4aef5")

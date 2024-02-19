@@ -1,5 +1,4 @@
 ﻿define c = Character('Covalenco', color="#ff0303")
-define a = Character("Andrei Sarov", color="#1803ff")
 
 
 define energy = 0
