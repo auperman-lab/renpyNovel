@@ -27,6 +27,9 @@ label kitchenIncident:
 
     "You follow the group to the balcony, unable to ignore the chaos and noise of the party around you. Despite the laughter and loud music, a sense of unease creeps in."
     show bg kitchen
+    show shinji
+    show max
+
     "As you slip through the kitchen door, you're met with the jarring sound of raging metal music blasting from a nearby speaker. The sudden shift in atmosphere adds to the surreal nature of your escape, contrasting sharply with the cacophony of voices and laughter from the party."
 
     "You spot [max] cooking alone, the sound of metal music filling the air around you. Intrigued, you approach him, but Max's initial reaction is less than welcoming."
@@ -42,6 +45,7 @@ label kitchenIncident:
     "You don't back down, your determination evident."
 
     c "Bet me."
+    play music "Ratatui.mp3"
 
     "The challenge hangs in the air between you, tension crackling as you face off in the kitchen."
 
@@ -66,9 +70,8 @@ label kitchenIncident:
     c "I'm on it, just give me a minute."
 
     "Despite your best efforts to keep up, your negative attitude begins to affect your cooking. As [max] continues to bark out orders, the kitchen grows increasingly chaotic. In the end, despite your synchronized efforts, the mamaliga burns, followed by the eggs and garlic, leaving both you and [max] frustrated and defeated."
-
+    stop music
     "As the chaos in the kitchen reaches its peak, you suddenly hear the sound of screaming coming from the balcony. The door swings open, and the Floor Chef storms in, his face red with anger."
-
     chef "Not a damn minute of peace! These students are shameless! Some are throwing a party in the middle of the week, others are burning food!"
 
     "His gaze falls on [max], his tone accusing."
@@ -108,10 +111,13 @@ label kitchenIncident:
 
     label commonHelpMax:
         hide bg kitchen
+        hide max
+        hide shinji
         "You feel exhausted and go to your room"
 return
 
 label pokerEvent:
+    show shinji
     "You find yourself at another lively dorm party, the sounds of laughter and music filling the air. Amidst the crowd, a group of friends invites you to join a game of poker."
     "Friend1" "Hey Covalenco, you in for some poker?"
     "You check your wallet, finding that you have enough money to join the game."
@@ -129,10 +135,13 @@ label pokerEvent:
     "With a nod of agreement, you follow your friends as they make their way to the Poker Room, ready for a night of fun and excitement."
 
     show bg pokerroom
-
+    play music "Poker.mp3"
+    show shinji
 
     "You enter the dimly lit Poker Room, the atmosphere heavy with anticipation. Five figures sit around the table, their faces partially obscured by shadows."
     "At the front of the desk, dealing the cards, is [danu], the dealer, while the other players are positioned opposite, surrounding the edges of the table."
+    show danu at right
+    show fool at left
     "You take a seat between the Poker Players and [danu] ready to join in the game."
     c "Alright, let's play."
     "With a shuffle of cards and a flick of the wrist, Danu begins dealing the hand, setting the stage for an intense game of poker."
@@ -164,7 +173,11 @@ label pokerEvent:
     c "Thanks for the luck, [danu]. This one's for you."
     "Danu accepts the tip with a nod and a knowing smile, the gold in his eyes seeming to glimmer with satisfaction. The other players watch in awe as your bold move pays off, impressed by your daring and skill."
     "The Fool, consumed by rage and frustration, directs his anger towards Danu, the dealer, accusing him of deceit and manipulation."
-
+    stop music
+    hide fool
+    hide shinji
+    show fool at center
+    show shinji at left
     fool "You motherfucker!"
 
     "[danu], unfazed by the outburst, interrupts with a smirk."
@@ -184,6 +197,10 @@ label pokerEvent:
 
 
     label choicehelpdanu1:
+        hide shinji
+        hide fool
+        show shinji at center
+        show fool at left
         "Covalenco steps forward, facing the enraged Fool with a determined expression."
         c "There's no fucking chance, [fool]. I just got lucky, that's all. This is my first time meeting [danu], and I won fair and square."
         "The Fool scoffs sarcastically, his disbelief evident in his tone."
@@ -192,14 +209,18 @@ label pokerEvent:
         fool "He... He looked at me all night in the party room like he wants something from me, and I approached him."
         "[danu] steps forward, his expression smug as he confirms the [fool]'s suspicions."
         danu "Yes, of course, I helped him. He said he'd give me half of the prize."
+        hide danu
         "Before anyone can react, [danu] swiftly exits the room, disappearing into the corridor. Chaos erupts as the other players confront me, accusing me of colluding with the dealer. In the midst of the commotion, I attempt to sneak away with my winnings, but I am caught by the others, who seize the money and deliver a punishing blow."
         hide bg pokerroom
+        hide fool
         show bg bedroomnight
         "After the chaotic events in the Poker Room, I retrieve what's left of my winnings and quickly exit the room, eager to escape the tension and conflict. I navigate through the dimly lit corridors of the dormitory, my mind buzzing with a mix of adrenaline and uncertainty. The echoes of angry voices fade into the distance as I finally reach the familiar comfort of my own room."
         hide bg bedroomnight
         show bg bathroom
+        show shinji at left
         "After the tumultuous events of the poker game, I seek solace in the bathroom, craving a moment of quiet reflection before retiring for the night. As I step into the familiar space, a sense of calm begins to wash over me, easing the tension in my shoulders."
         "My peace is shattered when I lay eyes on [danu], standing silently in the dimly lit room."
+        show danu at right
         "Startled by the unexpected encounter, I stand frozen as [danu] casually retrieves the amount of money I had entered the game with and hands it over to me."
         danu "What a great night, huh? So many emotions... fun, lies, hope, disappointment, betrayal. This is why I play with people."
         danu "I've never seen someone like you before. No one has ever tried to save my ass like that. Why are you even doing this?"
@@ -208,16 +229,22 @@ label pokerEvent:
         "Danu's gaze intensifies as he continues, his words taking on a cryptic tone."
         danu "[c], studying at Software Engineering at TAEM. Good boy. I'll help you sometime."
         "My eyes widen in astonishment as [danu] casually reveals personal details about me. A mix of confusion and curiosity fills my mind as I grapple with the implications of his words. I hesitate, unsure of what to make of this enigmatic encounter, and decide to probe further."
+        jump commonPokerEnd
     label choicehelpdanu2:
+        play music "Fight1.mp3"
         "As I witness the escalating tension in the poker room, I hesitate as the [fool] launches a punch at [danu]. The room erupts into chaos, but amidst the confusion, [danu]'s smile remains unnervingly intact."
         fool "You cheating scumbag! This is for tricking us!"
         "[danu], unfazed by the blow, calmly retrieves the money he earned from the game and places it on the table. With a calculated move, he reveals the hidden cards taped under the table, exposing the deceit that tainted the game."
         danu "Looks like someone tried to stack the deck. Shame on you."
         "I watch in disbelief as the tables turn, the Fool's bravado crumbling in the face of Danu's revelation. The other players, realizing they've been duped, turn their fury on the Fool, delivering swift retribution for his deceit."
         "Player 1" "You lying cheat! How dare you!"
+        hide danu
         "As the room descends into chaos, [danu] slips away unnoticed, leaving me to fend for myself. Before I can make my escape, I'm cornered by the enraged players, who unleash their anger on me, leaving me battered and bruised, with my hard-earned winnings slipping through my fingers."
-
+        stop music
     label commonPokerEnd:
+        hide danu
+        hide shinji
+        hide fool
 
         "You feel exhausted and go to your room"
 

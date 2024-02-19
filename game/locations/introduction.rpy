@@ -9,7 +9,7 @@ label introduction:
 
     define coj = Character("Gogoi", color='#ff0303')
 
-#     play music "ritmUTM.mp3"
+    play music "ritmUTM.mp3"
 
 
     show bg bostan
@@ -25,7 +25,7 @@ label introduction:
 
 
     show bg courseroom
-
+    show shinji
     c "  \"speaking internally\" The  idea of having complete control over my path is both exhilarating and terrifying. But maybe this is the chance I've been waiting for, to forge my own destiny."
 
     b "As you embark on this academic journey, keep in mind the main points of the semester – Midterm, and the formidable EXAM."
@@ -46,6 +46,8 @@ label introduction:
 
 
     show bg semiarroom
+
+    show shinji
     " You enters the room, feeling a wave of apprehension wash over yourself as you takes in the sight of your classmates, all seemingly confident and prepared for the challenges ahead."
 
     c "  \"speaking internally\" "
@@ -57,7 +59,7 @@ label introduction:
     coj "Good morning, everyone. I trust you're all settling in well. Now, as you know, every group needs a leader to guide them through the semester. Let's hear from our candidates."
 
     " [a] and the girl step forward, each vying for the position with their own unique approach."
-
+    show sarov at right
     c "  \"gesticulating wildly\" Listen up, everyone! I've got big plans for this group. With me at the helm, we'll conquer every challenge that comes our way"
 
     "You try to focus on what Andrei is saying, but your mind drifts, feeling disconnected from the fervor in the room."
@@ -79,14 +81,14 @@ label introduction:
     "You watch silently as [a] assumes his new role, a sense of resignation settling over you as you realizes that in this environment, loudness often triumphs over substance."
 
     c "  \"speaking internally\" I guess this is how it goes. In a world where volume speaks louder than words, I wonder where I fit in."
-
+    hide sarov
     hide bg semiarroom
 
     "You enters the gym, feeling a sense of familiarity wash over you as you take in the surroundings."
 
     show bg gym
 
-
+    show shinji
     c "Hmm, not the most impressive gym I've ever seen, but it feels strangely comforting. Reminds me of my hometown gym."
 
     "You notice a group of guys gathered around an armwrestling table, their competitive spirits evident in their animated gestures and loud cheers."
@@ -112,6 +114,7 @@ label introduction:
     "You enter the dormitory, feeling the weight of the day's events settling on your shoulders. Your stomach growls, reminding you of your need for sustenance."
 
     show bg bedroomevening
+    show shinji
 
 
     c "Man, I could really go for something to eat right about now."
@@ -122,6 +125,7 @@ label introduction:
 
 
     scene bg kitchen
+    show shinji
 
     c "Let's see... what do we have here?"
 
@@ -145,7 +149,7 @@ label introduction:
 
 
     c "Hello, Manager? It's me, Covalenco. I was wondering if there might be any openings at the Massage Room..."
-
+    show manager at right
     manager "\"gruffly\" Covalenco, what do you want? I'm busy."
 
     c "I was just wondering if there are any job opportunities available. I could really use the extra income."
@@ -196,7 +200,7 @@ label introduction:
     manager "\"pauses, considering\" Hmm... You're lucky I'm feeling generous today. Come in tomorrow, and we'll discuss your schedule then. But don't push your luck."
 
     c "\"nods, relieved\" Thank you, Manager. I'll make sure to prove myself."
-
+    hide manager
     "Despite his reservations, you know you have little choice but to accept the Manager's terms. You'll make it work somehow, if only to keep your head above water."
 
     c "Time to recharge for tomorrow. Goodnight, world"
@@ -208,6 +212,7 @@ label introduction:
 
     scene bg coridornight
 
+    show shinji
     c "Hey, could you guys keep it down? Some of us are trying to sleep."
 
     "Guy1" "\"shrugs\" Sorry, man, but this is dorm life. You gotta adapt or join us."

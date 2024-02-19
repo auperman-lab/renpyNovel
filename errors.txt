@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/locations/university.rpy", line 20: expected statement.
-    intelligence += 1
-                 ^
+File "game/locations/partyRoom.rpy", line 198: expected statement.
+    shinji at center
+           ^
+
+File "game/locations/partyRoom.rpy", line 199: expected statement.
+    fool at left
+         ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Feb 19 11:03:07 2024
+Mon Feb 19 12:34:53 2024
