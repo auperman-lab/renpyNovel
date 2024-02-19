@@ -2,7 +2,7 @@ define nic = Character("Nichita")
 define f = Character("Fifa")
 define coj = Character("Cojuhari")
 
-
+play music "Massage.mp3"
 
 label massageRoom:
     show bg massageroom

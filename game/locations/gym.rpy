@@ -10,6 +10,8 @@ define ah2 = 0
 define ah3 = 0
 define ah4 = 0
 
+play music "Gym.mp3"
+
 label Gym:
     show bg gym
     "You train good"
