@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/locations/university.rpy", line 156: if statement expects a non-empty block.
-    if correctAnswer == 5:
-                          ^
-
-File "game/locations/university.rpy", line 158: Line is indented, but the preceding hide statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    call ending1
-    ^
-
-File "game/locations/university.rpy", line 174: expected 'label_name' not found.
-    call
-        ^
+File "game/locations/university.rpy", line 20: expected statement.
+    intelligence += 1
+                 ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Feb 19 10:59:41 2024
+Mon Feb 19 11:03:07 2024

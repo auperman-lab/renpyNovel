@@ -140,7 +140,7 @@ label ambiguousHelp3:
 return
 
 label ambiguousHelp4:
-    "As I sit down at [alcas]'s home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, [alcas] seems more somber, as if carrying a weight on his shoulders."\
+    "As I sit down at [alcas] 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, [alcas] seems more somber, as if carrying a weight on his shoulders."
     c "Hey, [alcas], everything alright?"
     alcas " \"sights\"Yeah, just been thinking about some things lately."
     c "Anything you want to talk about?"
@@ -226,7 +226,7 @@ return
 
 label saniaRoom:
     "You knock on Sania's door, hoping to continue your conversation from the gym and perhaps learn more about armwrestling."
-    show bg 810A
+    show bg ezoa
 
     c "Hey, Sania, it's me again. Mind if I come in?"
     s "\"opens the door looking surprised but welcoming\" Oh, hey. Sure, come on in."
@@ -243,6 +243,6 @@ label saniaRoom:
     s "\"shrugs\" No problem. It's always good to see someone passionate about armwrestling. Let me know if you need anything else."
     "As you leave Sania's room, you feel motivated and inspired, ready to put what you've learned into practice and dominate the armwrestling scene."
 
-    hide bg 810A
+    hide bg ezoa
     $ iahb = 2
 return

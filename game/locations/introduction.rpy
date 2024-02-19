@@ -101,6 +101,7 @@ label introduction:
 
     "You take his place at the table, feeling a rush of adrenaline as you prepare to face off against his opponent."
 
+    $ strength += 1
     c "Come on, you've got this..."
     c "Yes! That's what I'm talking about!"
     c "  \"speaking internally\" Maybe I underestimated myself. Turns out, I've still got some fight left in me."
@@ -168,6 +169,7 @@ label introduction:
 
 
     label choice1:
+        $ charisma += 1
         manager " \"leans back, a sly grin forming\" Thirty? Covalenco, let's be real here. You don't even have a dedicated degree in massage, just a few courses under your belt. You're lucky I'm even considering giving you another shot."
 
 
@@ -214,6 +216,7 @@ label introduction:
 
     menu:
         "Go for it":
+            $ sociability += 1
             jump choicePartySleep
 
         "Pass":
@@ -227,7 +230,6 @@ label introduction:
         "party party"
         "party party"
         $ energy = 2
-
         "You pass out"
         jump commonParty
 

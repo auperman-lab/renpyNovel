@@ -1,32 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 74, in script call
-    call partyRoom
-  File "game/locations/partyRoom.rpy", line 13, in script
-    if randd < 4 and maxEvent1 == 1:
-  File "game/locations/partyRoom.rpy", line 13, in <module>
-    if randd < 4 and maxEvent1 == 1:
-NameError: name 'randd' is not defined
+  File "game/script.rpy", line 76, in script call
+    call park
+  File "game/locations/gym.rpy", line 55, in script call
+    call ambiguousHelp4
+  File "game/locations/gym.rpy", line 143, in script
+    "As I sit down at Alcas 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, Alcas seems more somber, as if carrying a weight on his shoulders."\
+Exception: Sayer '"As I sit down at Alcas 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, Alcas seems more somber, as if carrying a weight on his shoulders."\' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 74, in script call
-    call partyRoom
-  File "game/locations/partyRoom.rpy", line 13, in script
-    if randd < 4 and maxEvent1 == 1:
-  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 1842, in execute
-    if renpy.python.py_eval(condition):
-  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/locations/partyRoom.rpy", line 13, in <module>
-    if randd < 4 and maxEvent1 == 1:
-NameError: name 'randd' is not defined
+  File "game/script.rpy", line 76, in script call
+    call park
+  File "game/locations/gym.rpy", line 55, in script call
+    call ambiguousHelp4
+  File "game/locations/gym.rpy", line 143, in script
+    "As I sit down at Alcas 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, Alcas seems more somber, as if carrying a weight on his shoulders."\
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 2557, in execute
+    Say.execute(self)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer '"As I sit down at Alcas 's home, I notice a change in the atmosphere. Instead of the usual boasting and complaints about society, Alcas seems more somber, as if carrying a weight on his shoulders."\' is not defined.
 
 macOS-10.16-x86_64-i386-64bit x86_64
 Ren'Py 8.2.0.24012702
 Novell 1.0
-Mon Feb 19 06:44:31 2024
+Mon Feb 19 11:12:01 2024

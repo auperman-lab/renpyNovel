@@ -17,6 +17,8 @@ label seminarRoom:
         "You feel smarter"
         hide bg semiarroom
 
+        $ intelligence += 1
+
         "you go home"
         return
 
@@ -154,7 +156,7 @@ label exam:
 
         label result:
             if correctAnswer == 5:
-            hide courseroom
+                hide courseroom
                 call ending1
 
             if ah5 == 1:
@@ -171,38 +173,32 @@ label exam:
 
             if correctAnswer != 5 and ah5 == 0 and charisma < 9 and intelligence <9:
                 hide courseroom
-                call
-
-
-
-
-
-
+                call ending5
 
 return
 
 label ending1:
-    "Good job You gout First Ending"
+    "Good job You got First Ending"
     "You are really a good person , and very friendly one also, keep going"
 return
 
 label ending2:
-    "Good job You gout Second Ending"
+    "Good job You got Second Ending"
     "You big boy , you got muscles , but the most important muscle for you is your hearth"
 return
 
 label ending3:
-    "Good job You gout Third Ending"
+    "Good job You got Third Ending"
     "Such hannds, goldenn hands , even others see that , feel that "
 return
 
 label ending4:
-    "Good job You gout Forth Ending"
+    "Good job You got Forth Ending"
     "Who are you ,why are you even here , no one should do it, it is boring"
     "Sorry that , it should be romannce route , but i cant write romace ,really, more time , better product!"
 return
 
 label ending5:
-    "Bad job You gout Fiftieth Ending"
-    "You are really a good person , and very friendly one also, keep going"
+    "Bad job You got Fiftieth Ending"
+    "You are really mediocre, sorry , Bostan said to you this already, but , at Software Engineering you need to evidentiate yourself(("
 return
