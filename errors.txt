@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 41: expected a keyword argument, colon, or end of line.
-    grid 2,1 
-          ^
+File "game/script.rpy", line 116: Line is indented, but the preceding return statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    label massageRoom:
+    ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Feb 19 05:28:48 2024
+Mon Feb 19 06:14:32 2024
