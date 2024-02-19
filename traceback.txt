@@ -1,0 +1,62 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 61, in script call
+    call morning
+  File "game/script.rpy", line 349, in script
+    menu:
+  File "game/script.rpy", line 40, in execute
+    screen abilities_screen:
+  File "game/script.rpy", line 40, in execute
+    screen abilities_screen:
+  File "game/script.rpy", line 41, in execute
+    grid 1 1:
+Exception: Grid overfull.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 61, in script call
+    call morning
+  File "game/script.rpy", line 349, in script
+    menu:
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ast.py", line 1618, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/exports.py", line 1109, in menu
+    rv = renpy.store.menu(new_items)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/exports.py", line 1364, in display_menu
+    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2683, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/screen.py", line 480, in visit_all
+    callback(self)
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/core.py", line 2683, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/screen.py", line 491, in per_interact
+    self.update()
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/script.rpy", line 40, in execute
+    screen abilities_screen:
+  File "game/script.rpy", line 40, in execute
+    screen abilities_screen:
+  File "game/script.rpy", line 41, in execute
+    grid 1 1:
+  File "/Users/nmacrii/Desktop/renpy-8.2.0-sdk/renpy/display/layout.py", line 559, in add
+    raise Exception("Grid overfull.")
+Exception: Grid overfull.
+
+macOS-10.16-x86_64-i386-64bit x86_64
+Ren'Py 8.2.0.24012702
+Novell 1.0
+Mon Feb 19 05:30:16 2024
