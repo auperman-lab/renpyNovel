@@ -1,11 +1,6 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define c = Character('Covalenco', color="#ff0303")
-
+﻿define c = Character('Covalenco', color="#ff0303")
 define a = Character("Andrei Sarov", color="#1803ff")
+
 
 define energy = 0
 define totalday = 1

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 116: Line is indented, but the preceding return statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    label massageRoom:
-    ^
+File "game/locations/partyRoom.rpy", line 61: expected statement.
+    fool: "Here you go, [danu], 5 percent for good luck. Thank the Karma, guys!"
+        ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Feb 19 06:14:32 2024
+Mon Feb 19 07:31:07 2024
