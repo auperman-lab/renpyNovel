@@ -10,11 +10,23 @@ define ah2 = 0
 define ah3 = 0
 define ah4 = 0
 
+
+
+
 label Gym:
     show bg gym
+    play music "Gym.mp3"
+
     "You train good"
+    "You train good"
+    "You train good"
+
     if strength == 3:
         call inAHealphyBody
+
+    if strength == 4 and iahb == 1:
+        "After training u decide to go to Sania"
+        call saniaRoom
 
 
     $ strength +=1
@@ -22,13 +34,14 @@ label Gym:
 
     hide bg gym
     "you go home"
+    stop music
     return
 
 label park:
     $ energy = 3
     show bg park
     "you run"
-    if 3 < strength < 6 and iahb == 2:
+    if 4 <= strength <= 6 and iahb == 2:
         call ambiguousHelp1
 
     if strength == 6 and ah1:
@@ -36,6 +49,12 @@ label park:
 
     if strength == 8 and ah2:
     call ambiguousHelp2
+
+    if strength == 9 and ah3:
+    call ambiguousHelp3
+
+    if strength == 10 and ah4:
+    call ambiguousHelp4
 
 
     "you go home"
@@ -176,13 +195,18 @@ label inAHealphyBody:
     c "\"surprised but pleased\" Sure thing, Sania. Thanks for the invite."
     "As you both head towards the dorms, you can't help but wonder what other surprises await you in this new friendship."
 
+
     stop music fadeout 1.0
+
+    $ iahb = 1
+
 
 return
 
 label saniaRoom:
-
     "You knock on Sania's door, hoping to continue your conversation from the gym and perhaps learn more about armwrestling."
+    show bg 810A
+
     c "Hey, Sania, it's me again. Mind if I come in?"
     s "\"opens the door looking surprised but welcoming\" Oh, hey. Sure, come on in."
     "You enter Sania's room, noticing the various armwrestling trophies and posters adorning the walls."
@@ -197,5 +221,7 @@ label saniaRoom:
     c "\"grateful\" Thanks, Sania. I really appreciate you taking the time to help me out."
     s "\"shrugs\" No problem. It's always good to see someone passionate about armwrestling. Let me know if you need anything else."
     "As you leave Sania's room, you feel motivated and inspired, ready to put what you've learned into practice and dominate the armwrestling scene."
-    $ iahb = 1
+
+    hide bg 810A
+    $ iahb = 2
 return
